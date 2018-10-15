@@ -99,3 +99,9 @@ Invokes the CAS Command Line Shell. For a list of commands either use no argumen
 ```bash
 ./build.sh cli
 ```
+
+## docker部署
+* 把target生成cas.war文件复制到docker目录，运行命令
+```
+docker build -t sdgm/cas-server .
+```
